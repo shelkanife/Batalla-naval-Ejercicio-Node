@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const userGrid = document.querySelector('.grid-user')
-    const computerGrid = document.querySelector('.grid-computer')
+    const computerGrid = document.querySelector('.grid-cpu')
     const displayGrid = document.querySelector('.grid-display')
     const ships = document.querySelectorAll('.ship')
     const destroyer = document.querySelector('.destroyer-container')
@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const carrier = document.querySelector('.carrier-container')
     const startButton = document.querySelector('#start')
     const rotateButton = document.querySelector('#rotate')
-    const turnDisplay = document.querySelector('#whose-go')
+    const turnDisplay = document.querySelector('#turno')
     const infoDisplay = document.querySelector('#info')
     const setupButtons = document.getElementById('setup-buttons')
     const userSquares = []
